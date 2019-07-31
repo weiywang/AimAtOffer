@@ -1,6 +1,6 @@
 package main.java;
 
-public class ReplaceSpace {
+public class A002_ReplaceSpace {
     public String replaceSpace(StringBuffer str) {
         char[] chars = str.toString().toCharArray();
         StringBuilder res = new StringBuilder();

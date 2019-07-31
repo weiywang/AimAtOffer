@@ -1,6 +1,6 @@
 package main.java;
 
-public class Find {
+public class A001_Find {
     public boolean Find(int target, int [][] array) {
         if(array.length == 0){
             return false;

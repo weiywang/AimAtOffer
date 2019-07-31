@@ -2,7 +2,7 @@ package main.java;
 
 import java.util.*;//有用到直接用*，省的一个一个加
 
-public class ReConstructBinaryTree {
+public class A004_ReConstructBinaryTree {
     public TreeNode reConstructBinaryTree(int [] pre,int [] in) {
         Map<Integer, Integer> preIndex = new HashMap<>();
         for(int i = 0; i < pre.length; i++){
